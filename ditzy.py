@@ -1,4 +1,3 @@
-# all the imports
 import os
 import sqlite3
 from flask import Flask, request, session, g, redirect, url_for, abort, \
@@ -9,6 +8,8 @@ import hashlib
 import re
 import datetime
 
+import config
+
 # create our little application :)
 app = Flask(__name__)
 app.config.from_object(__name__)
@@ -17,7 +18,7 @@ app.config.from_object(__name__)
 app.config.update(dict(
     DATABASE=os.path.join(app.root_path, 'ditzy.db'),
     DEBUG=True,
-    SECRET_KEY='abc'
+    SECRET_KEY=config.key
 ))
 # app.config.from_envvar('FLASKR_SETTINGS', silent=True)
 
