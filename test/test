@@ -1,0 +1,40 @@
+#!/bin/zsh
+
+casefiles=(
+    '1398115945.M962302P15906V0000000000000803I0000000000100B9D.mail.mugenguild.com'          
+    '1398116655.M503638P16306V0000000000000803I0000000000104912.mail.mugenguild.com:2,RS'     
+    '1398116734.M921674P16430V0000000000000803I0000000000104913.mail.mugenguild.com:2,S'      
+    '1398116934.M576491P16502V0000000000000803I000000000010491C.mail.mugenguild.com:2,RS'     
+    '1398117543.M807676P16642V0000000000000803I00000000000000BE.mail.mugenguild.com:2,RS'     
+    '1398117565.M332428P16666V0000000000000803I00000000000C40BC.mail.mugenguild.com:2,S'      
+    '1398143092.M375186P19237V0000000000000803I0000000000100BA1.mail.mugenguild.com:2,S'      
+    '1398162921.M681506P22001V0000000000000803I0000000000100BA3.mail.mugenguild.com:2,S'      
+    '1398164079.M658267P22090V0000000000000803I00000000000C40BE.mail.mugenguild.com:2,S'      
+    '1398166659.M551927P22505V0000000000000803I00000000000C40BF.mail.mugenguild.com:2,'       
+    '1398167042.M443019P22691V0000000000000803I00000000000C40C0.mail.mugenguild.com:2,S'      
+    '1398169328.M269004P22934V0000000000000803I00000000000C40C1.mail.mugenguild.com:2,S'      
+    '1398171976.M533527P23071V0000000000000803I00000000000C40C2.mail.mugenguild.com:2,S'      
+)
+casenames=(
+    'valodim, antrag, no vote'
+    'rohieb ~0, signed'
+    'valodim, no vote'
+    'rohieb, +1'
+    'valodim, -1, no sig'
+    'valodim, -1, signed'
+    'chrissi^, +1, no sig'
+    'rohieb, ~0, no sig'
+    'larsan, +1, signed'
+    'valodim, +1, signed (inline)'
+    'valodim, ~0, signed (inline)'
+    'rohieb, no vote'
+    'rohieb, no vote'
+)
+
+for i in {1..$#casenames}; do
+    echo $casefiles[i]
+    echo $casenames[i]
+    curl --header 'Content-Type: text/mail' \
+        --data-binary @$casefiles[i] http://127.0.0.1:5000/post
+    echo
+done

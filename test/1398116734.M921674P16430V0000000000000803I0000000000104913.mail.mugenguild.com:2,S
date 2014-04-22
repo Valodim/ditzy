@@ -1,0 +1,132 @@
+From vorstand-bounces@stratum0.org  Mon Apr 21 23:45:32 2014
+Return-Path: <vorstand-bounces@stratum0.org>
+X-Original-To: valodim@mugenguild.com
+Delivered-To: valodim@mugenguild.com
+Received: from stratum0.org (mail.nerdpapi.de [178.32.53.3])
+	by mail.mugenguild.com (Postfix) with ESMTPS id AD794AC0C0
+	for <valodim@mugenguild.com>; Mon, 21 Apr 2014 23:45:32 +0200 (CEST)
+Received: from [192.168.1.106] (localhost.localdomain [127.0.0.1])
+	by stratum0.org (Postfix) with ESMTP id 66A6B2301CA9;
+	Mon, 21 Apr 2014 21:45:32 +0000 (UTC)
+X-Original-To: vorstand@stratum0.org
+Delivered-To: vorstand@stratum0.org
+Received: from mail.mugenguild.com (mail.mugenguild.com [78.47.123.84])
+	(using TLSv1 with cipher ADH-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by stratum0.org (Postfix) with ESMTPS id BE806230013A
+	for <vorstand@stratum0.org>; Mon, 21 Apr 2014 21:45:30 +0000 (UTC)
+Received: by mail.mugenguild.com (Postfix, from userid 1000)
+	id 7D38CAC0C0; Mon, 21 Apr 2014 23:45:30 +0200 (CEST)
+Date: Mon, 21 Apr 2014 23:45:30 +0200
+From: Valodim Skywalker <valodim@mugenguild.com>
+To: vorstand@stratum0.org
+Message-ID: <20140421214530.GA16391@mugenguild.com>
+Mail-Followup-To: vorstand@stratum0.org
+References: <20140421213219.GA15761@mugenguild.com>
+	<53559128.50109@rohieb.name>
+MIME-Version: 1.0
+In-Reply-To: <53559128.50109@rohieb.name>
+User-Agent: Mutt/1.5.22.1-rc1 (2013-10-16)
+Subject: Re: [#StratumV] [antrag] testantrag
+X-BeenThere: vorstand@stratum0.org
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: "Vorstand des Stratum 0 e.V." <vorstand.stratum0.org>
+List-Unsubscribe: <http://lists.stratum0.org/mailman/options/vorstand>,
+	<mailto:vorstand-request@stratum0.org?subject=unsubscribe>
+List-Archive: <http://lists.stratum0.org/mailman/private/vorstand>
+List-Post: <mailto:vorstand@stratum0.org>
+List-Help: <mailto:vorstand-request@stratum0.org?subject=help>
+List-Subscribe: <http://lists.stratum0.org/mailman/listinfo/vorstand>,
+	<mailto:vorstand-request@stratum0.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0113190758=="
+Sender: vorstand-bounces@stratum0.org
+Errors-To: vorstand-bounces@stratum0.org
+
+
+--===============0113190758==
+Content-Type: multipart/signed; micalg=pgp-sha1;
+	protocol="application/pgp-signature"; boundary="Q68bSM7Ycu6FN28Q"
+Content-Disposition: inline
+
+
+--Q68bSM7Ycu6FN28Q
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Ja, natuerlich. Der wird nach mail addresse gematcht.
+
+(Kein vote hier)
+
+ - V
+
+Roland Hieber(rohieb+stratum0@rohieb.name)@Mon, Apr 21, 2014 at 11:44:08PM =
++0200:
+> OK, klingt sinnvoll.
+>=20
+> ~0
+>=20
+> On 21.04.2014 23:32, Valodim Skywalker wrote:
+> > Hi, bin auf dem Easterhegg endlich mal dazu kommen ein vote tallying
+> > tool zu basteln. Das mail parsen ist soweit fertig denke ich,=20
+> >=20
+> > ich brauche zum testen meines antrags tallying tools mal einen
+> > testantrag.
+> >=20
+> > Momentan wichtig fuer das tool:
+> > - antraege muessen mit [antrag] markiert werden
+> > - In-Reply-To header muss korrekt gesetzt sein. das ist soweit ich das
+> >   ueberblicken kann schon immer ueberall der fall gewesen
+> > - fuer votes muss in der mail +1, -1 oder ~0 in einer einzelnen zeile
+> >   (!) vorkommen
+>=20
+> - Antr=E4ge m=FCssen mit dem entsprechenden PGP-Schl=FCssel signiert sein,
+> hoffe ich? ;-)
+>=20
+>  - Roland
+>=20
+
+
+
+> _______________________________________________
+> vorstand mailing list
+> vorstand@stratum0.org
+> http://lists.stratum0.org/mailman/listinfo/vorstand
+
+
+--Q68bSM7Ycu6FN28Q
+Content-Type: application/pgp-signature
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQIcBAEBAgAGBQJTVZF6AAoJEHvRgyDerfoREPcQAI9P5hW0kj4joQzimREOIcOY
+KkQxtdLhHO3ZP27JMtN9Pof0wSbA2mVB6Sd4ongEY55DvLHdw5rBi+Iwoi/BGU0O
+7XLVDutgl8WPRDAjONk6M+kmypB7IDK3qMXByB5+CnYYLo7qenj6l9D+OluPhPFk
+9bgPLB1cdbcNu5do89VAQVM40wsMZzla5tsefvp3Ech8EbTbbGevD2bB6YAJbGWN
+RYUb+YREb0qJiFJYnePkFU0z4e+776kERcVNBcPNJi9H2J1aw/nYYd0B7KFNBQBv
+9RX+y+KF/eB1vkfzhKhYKcFBKf+bR6rARSko/ZzdMj60rjthbHuuH9tog3dpxArY
+xQ20tVbtWr1DIh7m7+Q4X+7hts/PlgMUnPmur4UK9WPuq/Z5WkOJJ9py21IYq+l1
+6uhOu/jPLv+T5NtsrXvL8IgQA0ktF8iyJILdS8O/jSiLjNRu5GjWPt7S1vJGQnNf
+XueRTca83AJEfqt+YIGmf9n6VccD5++HdELneU7mAd1srXirgXrUoVDQYd0AFY8W
+4iFNN7oNadj3nOMm2XhHQ8USmnfzEWWpx4G9rSXywrz99NbekrgKHt4F+ubztPJu
+YsMRDicuYx5naGDpZKmlJOdbWCLtxrQe2RHKWjxHNe+1uLUiIT1zTIZq3vYOaZgw
+fjxvbiLn6UrsRaCwIVEV
+=bzDs
+-----END PGP SIGNATURE-----
+
+--Q68bSM7Ycu6FN28Q--
+
+--===============0113190758==
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+_______________________________________________
+vorstand mailing list
+vorstand@stratum0.org
+http://lists.stratum0.org/mailman/listinfo/vorstand
+
+--===============0113190758==--

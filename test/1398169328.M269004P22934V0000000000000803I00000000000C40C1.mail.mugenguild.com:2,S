@@ -1,0 +1,101 @@
+From vorstand-bounces@stratum0.org  Tue Apr 22 14:22:06 2014
+Return-Path: <vorstand-bounces@stratum0.org>
+X-Original-To: valodim@mugenguild.com
+Delivered-To: valodim@mugenguild.com
+Received: from stratum0.org (mail.nerdpapi.de [178.32.53.3])
+	by mail.mugenguild.com (Postfix) with ESMTPS id F1307AC0C0
+	for <valodim@mugenguild.com>; Tue, 22 Apr 2014 14:22:05 +0200 (CEST)
+Received: from [192.168.1.106] (localhost.localdomain [127.0.0.1])
+	by stratum0.org (Postfix) with ESMTP id CB5352301CA9;
+	Tue, 22 Apr 2014 12:22:04 +0000 (UTC)
+X-Original-To: vorstand@stratum0.org
+Delivered-To: vorstand@stratum0.org
+Received: from rohieb.name (vps-1010511-3500.united-hoster.de [81.20.132.56])
+	by stratum0.org (Postfix) with ESMTP id 8584A230013A
+	for <vorstand@stratum0.org>; Tue, 22 Apr 2014 12:22:03 +0000 (UTC)
+Received: from [192.168.148.21] (servant.sielkamp.etc.tu-bs.de
+	[134.169.170.44])
+	(using TLSv1 with cipher DHE-RSA-AES128-SHA (128/128 bits))
+	(No client certificate requested)
+	(Authenticated sender: rohieb@rohieb.name)
+	by rohieb.name (Postfix) with ESMTPSA id 15AC325840F3
+	for <vorstand@stratum0.org>; Tue, 22 Apr 2014 14:22:03 +0200 (CEST)
+Message-ID: <53565EE4.1050607@rohieb.name>
+Date: Tue, 22 Apr 2014 14:21:56 +0200
+From: Roland Hieber <rohieb+stratum0@rohieb.name>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64;
+	rv:24.0) Gecko/20100101 Icedove/24.4.0
+MIME-Version: 1.0
+To: vorstand@stratum0.org
+References: <20140421213219.GA15761@mugenguild.com>	<53559128.50109@rohieb.name>	<20140421214530.GA16391@mugenguild.com>	<53559240.3000308@rohieb.name>	<20140421215858.GA16607@mugenguild.com>	<20140421215921.GB16607@mugenguild.com>	<47b9ac9b-92c8-4ee5-a6b5-99929cd250f4@email.android.com>	<9e09ae3d-e77b-47eb-9033-d3be6b96ab5a@email.android.com>	<9bc5adad-f39e-46da-9b28-018177eeaa62@email.android.com>
+	<20140422113733.GA22460@mugenguild.com>
+In-Reply-To: <20140422113733.GA22460@mugenguild.com>
+X-Enigmail-Version: 1.6
+Subject: Re: [#StratumV] [antrag] testantrag
+X-BeenThere: vorstand@stratum0.org
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: "Vorstand des Stratum 0 e.V." <vorstand.stratum0.org>
+List-Unsubscribe: <http://lists.stratum0.org/mailman/options/vorstand>,
+	<mailto:vorstand-request@stratum0.org?subject=unsubscribe>
+List-Archive: <http://lists.stratum0.org/mailman/private/vorstand>
+List-Post: <mailto:vorstand@stratum0.org>
+List-Help: <mailto:vorstand-request@stratum0.org?subject=help>
+List-Subscribe: <http://lists.stratum0.org/mailman/listinfo/vorstand>,
+	<mailto:vorstand-request@stratum0.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0336946322=="
+Sender: vorstand-bounces@stratum0.org
+Errors-To: vorstand-bounces@stratum0.org
+
+This is an OpenPGP/MIME signed message (RFC 4880 and 3156)
+--===============0336946322==
+Content-Type: multipart/signed; micalg=pgp-sha512;
+ protocol="application/pgp-signature";
+ boundary="q1qLbRKjMFJUpsTpjofpEwX6xpXINQ8QK"
+
+This is an OpenPGP/MIME signed message (RFC 4880 and 3156)
+--q1qLbRKjMFJUpsTpjofpEwX6xpXINQ8QK
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+On 22.04.2014 13:37, Valodim Skywalker wrote:
+> Larsans signatur ist kaputt. Ist das nur bei mir so?
+
+Hm, na sowas, mein Enigmail meint:
+
+Good signature from Lars Andresen <mail@larsan.de>
+Key ID: 0x078FA88D / Signed on: 22.04.2014 12:54
+Key fingerprint: 4E45 0606 167F 428C A28A 3C54 EA44 5C41 078F A88D
+
+
+--q1qLbRKjMFJUpsTpjofpEwX6xpXINQ8QK
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBCgAGBQJTVl7kAAoJEMOZylE6vjlSO4UH/RODXzoKGS4B3rJI/+l822KU
+nANggUJBW7eZnJgOVqAGksLUuM+erPhI277MlgfGhA5DAKze1BXvaentfUFr4HSt
+5uVk9sF1LdTj5T0zlRY/pe/wx/DcZrRZKLFzXzRJdr4pZ1/xN5bK3gig9h3vpeHI
+fCS67JBz0L9d47240/W5XH0SNwL31s6B7HEcIIut6ivA2d0v9Jrj01fhJkZvRkO4
+A8SK/VQqU6l9Fd4Itao/366a1orgxeY+xJ5jrQFWRVrRHSw5ZFRAqXJTY2ghzhh6
+xvJ9LI7rNzhOeONOvaTuah2/1DoUUuD/9PG7RWuZMiUNbnfWmqEqdh2vHiSbqo8=
+=ENxO
+-----END PGP SIGNATURE-----
+
+--q1qLbRKjMFJUpsTpjofpEwX6xpXINQ8QK--
+
+--===============0336946322==
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+_______________________________________________
+vorstand mailing list
+vorstand@stratum0.org
+http://lists.stratum0.org/mailman/listinfo/vorstand
+
+--===============0336946322==--

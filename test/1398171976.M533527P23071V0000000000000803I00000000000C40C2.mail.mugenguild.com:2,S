@@ -1,0 +1,139 @@
+From vorstand-bounces@stratum0.org  Tue Apr 22 15:06:14 2014
+Return-Path: <vorstand-bounces@stratum0.org>
+X-Original-To: valodim@mugenguild.com
+Delivered-To: valodim@mugenguild.com
+Received: from stratum0.org (mail.nerdpapi.de [178.32.53.3])
+	by mail.mugenguild.com (Postfix) with ESMTPS id 33A32AC0C0
+	for <valodim@mugenguild.com>; Tue, 22 Apr 2014 15:06:14 +0200 (CEST)
+Received: from [192.168.1.106] (localhost.localdomain [127.0.0.1])
+	by stratum0.org (Postfix) with ESMTP id 73CA32301CA9;
+	Tue, 22 Apr 2014 13:06:13 +0000 (UTC)
+X-Original-To: vorstand@stratum0.org
+Delivered-To: vorstand@stratum0.org
+Received: from rohieb.name (vps-1010511-3500.united-hoster.de [81.20.132.56])
+	by stratum0.org (Postfix) with ESMTP id 24162230013A
+	for <vorstand@stratum0.org>; Tue, 22 Apr 2014 13:06:12 +0000 (UTC)
+Received: from [192.168.148.21] (servant.sielkamp.etc.tu-bs.de
+	[134.169.170.44])
+	(using TLSv1 with cipher DHE-RSA-AES128-SHA (128/128 bits))
+	(No client certificate requested)
+	(Authenticated sender: rohieb@rohieb.name)
+	by rohieb.name (Postfix) with ESMTPSA id C98BE25840F6
+	for <vorstand@stratum0.org>; Tue, 22 Apr 2014 15:06:11 +0200 (CEST)
+Message-ID: <53566943.9000901@rohieb.name>
+Date: Tue, 22 Apr 2014 15:06:11 +0200
+From: Roland Hieber <rohieb+stratum0@rohieb.name>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64;
+	rv:24.0) Gecko/20100101 Icedove/24.4.0
+MIME-Version: 1.0
+To: vorstand@stratum0.org
+References: <20140421213219.GA15761@mugenguild.com>	<53559128.50109@rohieb.name>	<20140421214530.GA16391@mugenguild.com>	<53559240.3000308@rohieb.name>	<20140421215858.GA16607@mugenguild.com>	<20140421215921.GB16607@mugenguild.com>	<47b9ac9b-92c8-4ee5-a6b5-99929cd250f4@email.android.com>	<9e09ae3d-e77b-47eb-9033-d3be6b96ab5a@email.android.com>	<9bc5adad-f39e-46da-9b28-018177eeaa62@email.android.com>	<20140422113733.GA22460@mugenguild.com>
+	<53565EE4.1050607@rohieb.name>
+In-Reply-To: <53565EE4.1050607@rohieb.name>
+Subject: Re: [#StratumV] [antrag] testantrag
+X-BeenThere: vorstand@stratum0.org
+X-Mailman-Version: 2.1.13
+Precedence: list
+List-Id: "Vorstand des Stratum 0 e.V." <vorstand.stratum0.org>
+List-Unsubscribe: <http://lists.stratum0.org/mailman/options/vorstand>,
+	<mailto:vorstand-request@stratum0.org?subject=unsubscribe>
+List-Archive: <http://lists.stratum0.org/mailman/private/vorstand>
+List-Post: <mailto:vorstand@stratum0.org>
+List-Help: <mailto:vorstand-request@stratum0.org?subject=help>
+List-Subscribe: <http://lists.stratum0.org/mailman/listinfo/vorstand>,
+	<mailto:vorstand-request@stratum0.org?subject=subscribe>
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Sender: vorstand-bounces@stratum0.org
+Errors-To: vorstand-bounces@stratum0.org
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+On 22.04.2014 14:21, Roland Hieber wrote:
+> On 22.04.2014 13:37, Valodim Skywalker wrote:
+>> Larsans signatur ist kaputt. Ist das nur bei mir so?
+> =
+
+> Hm, na sowas, mein Enigmail meint:
+> =
+
+> Good signature from Lars Andresen <mail@larsan.de> Key ID:
+> 0x078FA88D / Signed on: 22.04.2014 12:54 Key fingerprint: 4E45 0606
+> 167F 428C A28A 3C54 EA44 5C41 078F A88D
+
+
+Bzgl. diesem:
+
+<Valodim> [2014-04-22 13:17] larsan: deine sig ist schiefgegangen, war
+das absicht? ;)
+<larsan> [2014-04-22 13:17] Valodim: nope
+<larsan> [2014-04-22 13:18] bei mir siehts gut aus
+<Valodim> [2014-04-22 13:27] ach das ist kein pgp/mime
+<Valodim> [2014-04-22 13:28] joa die breaken ja ganz gerne mal
+<Valodim> [2014-04-22 13:28] mit zeilenumbruechen und so
+<Valodim> [2014-04-22 13:33] gpgv: malformed CRC
+<Valodim> [2014-04-22 13:33] gpgv: no signature found
+<Valodim> [2014-04-22 13:33] gpgv: quoted printable character in armor
+- - probably a buggy MTA has been used
+<Valodim> [2014-04-22 13:33] gpgv: the signature could not be verified.
+
+larsans Mail hat als Header ein 'Content-Transfer-Encoding: 8bit',
+nach RFC 1521 [0] sollte da also kein quoted-printable drin vorkommen.
+Wenn ich den Inhalt der Mail aus dem Quelltext direkt in eine Datei
+paste, ist mein gpg -v auch zufrieden damit und sieht das als valide an.
+
+[0] https://tools.ietf.org/html/rfc1521#section-5
+
+Valodims Antwort darauf war =FCbrigens bei mir auch in Ordnung. Die Mail
+hat im Header ein 'Content-Transfer-Encoding: quoted-printable',
+au=DFerdem ein 'Content-Type: text/plain; charset=3D"iso-8859-1"'. Wenn
+ich Valodims Mail in eine Datei paste, und gpg -v drauf ansetze, gibt
+es auch einen CRC-Error. Wenn ich in der Datei alle =3DXX durch die
+entsprechenden ISO-8859-1-Codepoints ersetze (einmal "f=3DFCr", einmal
+"=3DDCberlegung", und am Ende in der Inline-Signatur das "=3D3D"), ist der
+CRC in Ordnung, aber die Signatur BAD. Wenn ich allerdings alles so
+lasse, und nur das =3D3D in der Signatur ersetze, ist die Signatur GOOD.
+Anscheinend konvertiert mutt die Mail erst ins entsprechende
+MIME-Encoding, und bildet dann die Signatur dar=FCber, und konvertiert
+die Signatur zus=E4tzlich nochmal separat. Ich bin mir nicht sicher, wie
+das spezifiziert ist, aber so wie die Mail verpackt ist, klingt es
+kompliziert. Allerdings erkennt mein Enigmail auch bei Valodims Mail
+eine richtige Signatur, also ist schonmal dort eine gewisse
+Kompatibilit=E4t (wegen der Spec? wegen buggy MTAs?) eingebaut.
+
+(Um das ganze nochmal auf die Spitze zu treiben, ist diese Mail
+Inline-signiert.)
+
+Aber jetzt genug der technischen Analyse auf Vorstandslisten.
+
+ - Roland
+
+> =
+
+> =
+
+> =
+
+> _______________________________________________ vorstand mailing
+> list vorstand@stratum0.org =
+
+> http://lists.stratum0.org/mailman/listinfo/vorstand
+> =
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBCgAGBQJTVmk6AAoJEMOZylE6vjlSg08IAKmskzRET/D8SCso/gGXYpC1
+hmXL8mpQddiPq6La78h+1uPOY+VppUpni7gkAilNVu2xLe3HYEGupD5yPNa4rOB3
+p1Nd9DAtavMfiEuwBpr+IwqTSp6eMr7MAWk/xZwQwaltZk8xxrd1j7cp0mGqPUKF
+pnptnlGKIxOk2v/5dE+pnbPEpxB2eCl5A8Q+6j9aGwIHmCDN9Qly7eNcK3m50WlN
+aRvpOyv5efVScWUKZR4fEP6CYjs1140b7f0khO6VrTtKthBXDo6/MmCYQKyGuiqC
+AyGL3vf1Bqsp7W9or0pVCH0eGXPdY7lKR4rrQEBPdMcm4GJ6EP9JX2jFUy1z3dE=3D
+=3DwDBY
+-----END PGP SIGNATURE-----
+_______________________________________________
+vorstand mailing list
+vorstand@stratum0.org
+http://lists.stratum0.org/mailman/listinfo/vorstand
