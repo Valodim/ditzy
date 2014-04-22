@@ -1,0 +1,65 @@
+{% extends "layout.html" %}
+{% block body %}
+ <style>
+    table.entries {
+        width: 600px;
+    }
+    div.dot {
+        margin-left: auto;
+        margin-right: auto;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: 2px solid black;
+    }
+    .s_-1 {
+        background: red;
+        border: 2px solid red;
+    }
+    .s_0 {
+        background: blue;
+        border: 2px solid blue;
+    }
+    .s_1 {
+        background: green;
+        border: 2px solid green;
+    }
+    .v_0 {
+        border: 2px solid red;
+    }
+    .v_1 {
+    }
+    .none {
+        margin-left: auto;
+        margin-right: auto;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: 2px solid gray;
+    }
+  </style>
+  <table class=entries>
+      <tr>
+          <th class="subject">Subject</th>
+          <th class="ub">UB</th>
+  {% for v in vorstand %}
+          <th class="vorstand">{{ vorstand[v][1] }}</th>
+  {% endfor %}
+      </tr>
+  {% for entry in entries %}
+    <tr>
+        <td>{{ entry.subject }}</td>
+        <td>{{ entry.ub }}</td>
+      {% for v in vorstand %}
+       {% if v in entry.votes %}
+       <td><div class="dot s_{{ entry.votes[v][0] }} v_{{ entry.votes[v][1] }}"></td>
+       {% else %}
+       <td><div class="none"></div></td>
+       {% endif %}
+      {% endfor %}
+    </tr>
+  {% else %}
+    <li><em>No antrag in db!</em>
+  {% endfor %}
+  </table>
+{% endblock %}
